@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/starwars-catalogue/static/css/main.c72aec87.css",
+    "main.js": "/starwars-catalogue/static/js/main.ce49e9d6.js",
+    "static/js/787.8149c6f9.chunk.js": "/starwars-catalogue/static/js/787.8149c6f9.chunk.js",
+    "static/media/return-of-jedi.jpg": "/starwars-catalogue/static/media/return-of-jedi.9992bbd4f049fadfe20a.jpg",
+    "static/media/empire-strikes.jpg": "/starwars-catalogue/static/media/empire-strikes.84ce5ed2f72b37c9f76a.jpg",
+    "static/media/attack-of-clones.jpg": "/starwars-catalogue/static/media/attack-of-clones.1205cf2d7928cbfbeb6a.jpg",
+    "static/media/revenge-of-sith.jpg": "/starwars-catalogue/static/media/revenge-of-sith.833b2e2fca3075ba9f2e.jpg",
+    "static/media/phantom-menace.jpg": "/starwars-catalogue/static/media/phantom-menace.563d668992605481ec9e.jpg",
+    "static/media/Star_Wars_Logo.svg.png": "/starwars-catalogue/static/media/Star_Wars_Logo.svg.a84bdbbfcd5620eb0b3b.png",
+    "static/media/new-hope.jpg": "/starwars-catalogue/static/media/new-hope.70216c25b449e7f9e226.jpg",
+    "index.html": "/starwars-catalogue/index.html",
+    "main.c72aec87.css.map": "/starwars-catalogue/static/css/main.c72aec87.css.map",
+    "main.ce49e9d6.js.map": "/starwars-catalogue/static/js/main.ce49e9d6.js.map",
+    "787.8149c6f9.chunk.js.map": "/starwars-catalogue/static/js/787.8149c6f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c72aec87.css",
+    "static/js/main.ce49e9d6.js"
+  ]
+}
