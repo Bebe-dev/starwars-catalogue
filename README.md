@@ -14,4 +14,4 @@
 
 ### All these requirements were implemented
 ### Live server - [https://bebe-dev.github.io/starwars-catalogue/](https://bebe-dev.github.io/starwars-catalogue/)
-### GitHub repository - []()
+### GitHub repository - [https://github.com/Bebe-dev/starwars-catalogue](https://github.com/Bebe-dev/starwars-catalogue)
