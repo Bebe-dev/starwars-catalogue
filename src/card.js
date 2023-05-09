@@ -1,10 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { Link, Route, Routes, redirect } from 'react-router-dom'
-import logo from './images/Star_Wars_Logo.svg.png'
 import './style/card.css'
 import background from './background'
-import Info from './info'
 import Button from './more-item'
 
 const Card = () => {

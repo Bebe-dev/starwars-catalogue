@@ -7,7 +7,7 @@ const Info = () => {
   
   return (
     <>
-      <a onClick={() => navigate('/')}>Go to previous page </a>
+      <button onClick={() => navigate('/')}>Go to previous page </button>
       {/*<div>{data && data.results.map((item, index) => {
         return(
           <p>{item.episode_id}</p>

@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link, useNavigate, Route, Routes } from 'react-router-dom'
-import Info from './info'
+import { Link } from 'react-router-dom'
+
 
 const Button = () => {
-  const navigate = useNavigate()
   return(
     <>
       <ul style={{listStyleType:'none'}} > 
@@ -15,5 +14,5 @@ const Button = () => {
     </>
   )
 }
-{/*onClick={() => navigate('moreInfo')} */}
+
 export default Button 

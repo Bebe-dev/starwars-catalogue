@@ -3,7 +3,6 @@ import './style/card.css'
 import Header from './header'
 import Card from './card'
 import Info from './info'
-import Content from './content'
 
 
 function App() {
