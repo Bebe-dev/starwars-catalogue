@@ -67,6 +67,17 @@ a{
   width: 100%;
   padding: 0.3rem 0 0.5rem;
 }
+button{
+  border: none;
+  outline: none;
+  color: yellow;
+  font-size: 14px;
+  background-color: black
+}
+button:hover, a:hover{
+  cursor: pointer;
+  font-size: 16px;
+}
 
 @media screen and (max-width: 600px){
   .card-container{

@@ -1,13 +1,17 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
+import { Link, Route, Routes, redirect } from 'react-router-dom'
 import logo from './images/Star_Wars_Logo.svg.png'
 import './style/card.css'
 import background from './background'
+import Info from './info'
+import Button from './more-item'
 
 const Card = () => {
   const [loading, setLoading] = useState(true)
   const [data, setData] = useState(null)
   const [error, setError] = useState(null)
+  
   
   useEffect(() => {
   fetch(`https://swapi.dev/api/films`)
@@ -33,7 +37,6 @@ const Card = () => {
   
   return(
     <div className="big-container">
-      <img src={logo}  alt="star_wars"/>
       {loading && <div>Data is loading. Please wait...</div>}
       {error && <div>{`There was a problem fetching your data - ${error}`}</div>}
       <div className="card-container">
@@ -44,7 +47,16 @@ const Card = () => {
                   <h3>{item.title}</h3>
                   <span>{item.release_date}</span>
                   <p className="opening-crawl">{item.opening_crawl}</p>
-                  <a href="#">More info</a>
+                  <Button />
+                  {/*<Routes>
+                    <Route path='/moreInfo' element={<Info/>} />
+                  </Routes>
+                  <ul style={{listStyleType:'none'}}> 
+                    <li><button style={{backgroundColor: 'black'}}><Link to='/moreInfo'>More info</Link></button></li>
+                  </ul>*/}
+                  {/*<Routes>
+                    <Route path='/moreInfo' element={<Info/>}/>
+                  </Routes>*/}
             </div>
             
           )
@@ -53,6 +65,7 @@ const Card = () => {
       </div>
 
     </div>
+    
   )
   
 }

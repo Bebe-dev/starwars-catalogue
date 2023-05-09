@@ -1,10 +1,20 @@
+import { Route, Routes } from 'react-router-dom'
+import './style/card.css'
+import Header from './header'
 import Card from './card'
+import Info from './info'
+import Content from './content'
 
 
 function App() {
   return (
-    <div>
-      <Card/>
+    <div className="big-container">
+      <Header/>
+      
+      <Routes>
+        <Route path='/' element={<Card/>}/>
+        <Route path='/moreInfo' element={<Info/>}/> 
+      </Routes>
     </div>
   );
 }
