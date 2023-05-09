@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/starwars-catalogue/static/css/main.c72aec87.css",
-    "main.js": "/starwars-catalogue/static/js/main.ce49e9d6.js",
+    "main.css": "/starwars-catalogue/static/css/main.2993891a.css",
+    "main.js": "/starwars-catalogue/static/js/main.8a64bc1f.js",
     "static/js/787.8149c6f9.chunk.js": "/starwars-catalogue/static/js/787.8149c6f9.chunk.js",
     "static/media/return-of-jedi.jpg": "/starwars-catalogue/static/media/return-of-jedi.9992bbd4f049fadfe20a.jpg",
     "static/media/empire-strikes.jpg": "/starwars-catalogue/static/media/empire-strikes.84ce5ed2f72b37c9f76a.jpg",
@@ -11,12 +11,12 @@
     "static/media/Star_Wars_Logo.svg.png": "/starwars-catalogue/static/media/Star_Wars_Logo.svg.a84bdbbfcd5620eb0b3b.png",
     "static/media/new-hope.jpg": "/starwars-catalogue/static/media/new-hope.70216c25b449e7f9e226.jpg",
     "index.html": "/starwars-catalogue/index.html",
-    "main.c72aec87.css.map": "/starwars-catalogue/static/css/main.c72aec87.css.map",
-    "main.ce49e9d6.js.map": "/starwars-catalogue/static/js/main.ce49e9d6.js.map",
+    "main.2993891a.css.map": "/starwars-catalogue/static/css/main.2993891a.css.map",
+    "main.8a64bc1f.js.map": "/starwars-catalogue/static/js/main.8a64bc1f.js.map",
     "787.8149c6f9.chunk.js.map": "/starwars-catalogue/static/js/787.8149c6f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c72aec87.css",
-    "static/js/main.ce49e9d6.js"
+    "static/css/main.2993891a.css",
+    "static/js/main.8a64bc1f.js"
   ]
 }
