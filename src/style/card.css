@@ -19,6 +19,10 @@ img{
   width: 50%;
   margin: auto;
 }
+.image-div{
+  display: flex;
+  justify-content: center;
+}
 .card-container{
   display: grid;
   place-items: center;
@@ -45,13 +49,7 @@ span{
 h3{
   font-size: 18px;
 }
-p{
-  /*padding: 1rem 0 1.5rem;*/
-  border-bottom: red solid 1px;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
-  line-height: 1.25rem;
-}
+
 .opening-crawl{
   width: 100%;
   display: -webkit-box;
@@ -59,6 +57,10 @@ p{
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 7;
+  border-bottom: red solid 1px;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  line-height: 1.25rem;
 }
 a{
   color: yellow;
@@ -67,16 +69,47 @@ a{
   width: 100%;
   padding: 0.3rem 0 0.5rem;
 }
-button{
+.button-two{
   border: none;
   outline: none;
   color: yellow;
-  font-size: 14px;
-  background-color: black
+  font-size: 18px;
+  background-color: rgba(39, 39, 39, 0.9);
 }
 button:hover, a:hover{
   cursor: pointer;
   font-size: 16px;
+}
+.back{
+  color: #A09D9E;
+  background-color: rgba(45, 45, 45, 0.9);
+  border: none;
+  outline: none;
+}
+.middle-men{
+  text-align: center;
+  padding: 2rem 0;
+}
+.middle-men h1{
+  padding-bottom: 0.8rem;
+}
+.middle-men p{
+  font-size: 0.8rem;
+}
+.info-container{
+  background-color: rgba(45, 45, 45, 0.9);
+  width: 70%;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+.info-container h2{
+  font-weight: normal;
+  color: #A09D9E;
+  font-size: 2rem;
+}
+.info-container .info-crawl{
+  border-bottom: 0.05rem #A09D9E solid;
+  padding-bottom: 1.5rem;
 }
 
 @media screen and (max-width: 600px){

@@ -3,7 +3,7 @@ import './style/card.css'
 
 const Header = () => {
   return(
-    <div>
+    <div className="image-div">
       <img src={logo}  alt="star_wars"/>
     </div>  
   )
